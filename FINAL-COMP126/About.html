@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Final Project</title>
+
+        <link rel="stylesheet" href="nav-bar-styles.css">
+        <link rel = "stylesheet" href = "styles.css">
+        <script src="javascript/responsive-nav.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=Grape+Nuts&family=Itim&family=Libre+Bodoni:wght@400;700&family=Walter+Turncoat&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=Grape+Nuts&family=Itim&family=Libre+Bodoni:wght@400;700&family=Pridi:wght@200;300;400;500;600;700&family=Walter+Turncoat&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=Grape+Nuts&family=Itim&family=Libre+Bodoni:wght@400;700&family=Oxygen:wght@300;400;700&family=Pridi:wght@200;300;400;500;600;700&family=Walter+Turncoat&display=swap" rel="stylesheet">
+    </head>
+
+    <body> 
+      
+      <head>
+        <nav class="navbar">
+            <a class="brand-link" href="index.html">
+                <h1>Beekeeper Club</h1>
+            </a>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                </ul>
+            </div>
+        </nav>
+      </head>
+      
+      
+        <script>
+          const toggleButton = document.querySelector('.toggle-button');
+          const navbarLinks = document.querySelector('.navbar-links');
+          toggleButton.addEventListener('click', () => {
+            toggleButton.classList.toggle('active'); 
+            navbarLinks.classList.toggle('active');
+          });
+      </script>
+
+
+
+        <head class="header">
+          <img class="form-container" src="PURPLE BACKGROUND.jpeg">
+          <div class="mission-container">
+              <h1 class="mission-title">Our Mission</h1>
+              <h3 class="mission-description"> The Beekeeping Club is committed to nurturing a vibrant community of bee enthusiasts on our college campus, committed to the conservation, education, and appreciation of pollinators.
+                
+                Our mission is to raise awareness about the vital role of pollinators in food production and biodiversity, while fostering a sense of environmental stewardship among our members through educational events, outreach initiatives, and collaborative projects with local organizations. 
+                
+                </h3>
+          </div>
+        
+            <div class="login-container">
+                <form id="form" action="/" method="GET">
+      <br> <h1> Join our mailing list for updates!</h1></br> 
+                    <div>
+                        <h2> <label for="name">Name</label> </h2> 
+                      <input id="name" name="name" type="text" required>
+                    </div>
+                    <div>
+                        <h2> <label for="email">Email</label></h2>
+                      <input id="email" name="email" type="email">
+                    
+                    </div><br>
+                    <button id="send" type="send">Submit</button>
+                    
+                  
+                  </form>
+                  <br><br>  <br><br>
+                  <div class="hyperlinks-container"><br> <br>
+                    <h2>Useful Links</h2> <br> <br>
+                    <h3> <ul>
+                      <li><a href="https://www.sunset.com/garden/backyard-projects/beekeeper">Beekeeping Basics</a></li>
+                      <li><a href="https://honey.com/about-honey/how-honey-is-made">How Honey is Made</a></li>
+                      <li><a href="https://www.beeawareallergy.com/resources/beekeepers/danger-backyard-beekeeping/">Dangers of Beekeeping</a></li>
+                      <!-- Add more links as needed -->
+                    </ul><br> <br></h3>
+
+          <script src = "javascript/fastclick.js"></script>
+          <script src= "javascript/scroll.js"></script>
+          <script src = "javascript/fixed-responsive-nav.js"></script>
+    </body>
+
+    <footer>
+        <h2>&copy; COMP 126 FINAL PROJECT 2024</h2>
+        </footer>
+      
+</html>
+
+

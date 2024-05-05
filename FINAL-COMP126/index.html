@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    
+    <header>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Final Project</title>
+
+        <link rel="stylesheet" href="nav-bar-styles.css">
+        <link rel = "stylesheet" href = "styles.css">
+        <script src="javascript/responsive-nav.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=Grape+Nuts&family=Itim&family=Libre+Bodoni:wght@400;700&family=Walter+Turncoat&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=Grape+Nuts&family=Itim&family=Libre+Bodoni:wght@400;700&family=Pridi:wght@200;300;400;500;600;700&family=Walter+Turncoat&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=Grape+Nuts&family=Itim&family=Libre+Bodoni:wght@400;700&family=Oxygen:wght@300;400;700&family=Pridi:wght@200;300;400;500;600;700&family=Walter+Turncoat&display=swap" rel="stylesheet">
+    </header>
+
+    
+    <head>
+        <nav class="navbar">
+            <a class="brand-link" href="index.html">
+                <h1 class="brand-title">Beekeeper Club</h1>
+            </a>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                </ul>
+            </div>
+        </nav>
+    </head>
+    
+    
+      <script>
+        const toggleButton = document.querySelector('.toggle-button');
+        const navbarLinks = document.querySelector('.navbar-links');
+        toggleButton.addEventListener('click', () => {
+          toggleButton.classList.toggle('active'); 
+          navbarLinks.classList.toggle('active');
+        });
+    </script>
+
+
+
+    <body> 
+        <header class="header">
+            <img class="form-container" src="BEEKEEP.jpeg" alt="Beekeeper">
+            <a href="About.html" id="submit1">Learn More</a>
+        </header>
+
+      <main>
+        <div class="leadership-container">
+            <h1>Meet the Leadership Team</h1><br> </br> 
+            <div class="member-container">
+                <div class="profile-picture">
+                    <img src="POOHBEAR.jpeg" alt="Chris Robbins">
+                </div>
+
+                <div class="member-info">
+                     <h1>Chris Robbins</h1> 
+                   
+                     <h2>Club President</h2>
+                    <h2>Year: Junior</h2>
+                    <h2>Major: Environmental Science</h2>
+                    <h2>Hometown: East Sussex, England</h2>
+                    <h3>Chris Robbins always had an appreciation for nature. Growing up surrounded by lush greenery and buzzing bees, he developed a fascination for sustainable beekeeping practices. As president of the beekeeping club, he hopes to share and advocate for policies that support bee conservation for on-campus honey.
+                    </h3><br> </br> 
+                    <div class="email-button"><a href="#">Email</a></div>
+                </div>
+            
+            <div class="button-container">
+                <button class="button-arrow left-arrow" onclick="location.href='home3.html';"></button>
+                <button class="button-arrow right-arrow" onclick="location.href='home2.html';"></button>
+            </div>
+    </div>
+</main>
+        <script src = "javascript/fastclick.js"></script>
+        <script src= "javascript/scroll.js"></script>
+        <script src = "javascript/fixed-responsive-nav.js"></script>
+    </body>
+
+    <footer>
+        <h2>&copy; COMP 126 FINAL PROJECT 2024</h2>
+    </footer>
+      
+</html>
+
+

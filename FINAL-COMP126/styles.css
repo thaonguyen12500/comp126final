@@ -1,0 +1,44 @@
+
+
+
+
+    h1 {
+        font-family: "Berkshire Swash", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    h2 {
+        font-family: "Pridi", serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    h3 {
+        font-family: "Oxygen", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+
+
+    
+  .email-button {
+    padding: 5px 20px;
+    border-radius: 4px;
+    background-color: #474973;
+    color: white;
+    margin-top: 0.7rem;
+    box-shadow: black 0px 2px 8px 0px;
+    transition: all 400ms;
+  }
+  
+  .email-button:hover, .learn:focus {
+      background-color: #A69CAC;
+}
+  
+  .email-button a {
+    color: white;
+    text-decoration: none;
+  }
